@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/oneplus/oneplus3/device.mk)
 
 # Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_STOCK_ARCORE := true
 IS_PHONE := true
@@ -31,7 +31,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
-PRODUCT_NAME := aosp_oneplus3
+PRODUCT_NAME := pixys_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
